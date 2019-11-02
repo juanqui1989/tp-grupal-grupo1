@@ -5,7 +5,6 @@ public class Tecnico {
     public void setPcBuilder(PcBuilder pcBuilder) {
         this.pcBuilder = pcBuilder;
     }
-    public  void Computadora
 
     public Comptadora getComputadora() {
         return pcBuilder.getCompu();
