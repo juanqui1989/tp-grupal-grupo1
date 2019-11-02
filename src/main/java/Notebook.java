@@ -3,18 +3,26 @@ public class Notebook extends PcBuilder {
     /** "ConcreteBuilder" */
 
     public Notebook() {
-        super.compu= new Computadora();
+
+        super.compu=new Computadora();
     }
 
     public void buildMother() {
-        compu.setMother("Gigabyte");
+        compu.setMother("Asus");
     }
 
-    public void buildProcesador() {
-        compu.setProcesador("Intel Core I7");
+    public void buildCpu() {
+
+        compu.setCpu("Intel Core I7");
     }
 
     public void buildMemoriaRam() {
+
         compu.setMemoriaRam("Kingston");
     }
+
+    public void buildMonitor() {
+        compu.setMonitor("Sentey");
+    }
+
 }

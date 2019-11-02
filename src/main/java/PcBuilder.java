@@ -1,12 +1,12 @@
 public abstract class PcBuilder {
     protected Computadora compu;
 
-    public Comptadora getCompu() {
+    public Computadora getCompu() {
         return compu;
     }
 
     public abstract void  buildMother();
-    public abstract void  buildProcesador();
+    public abstract void buildCpu();
     public abstract void  buildMemoriaRam();
-
+    public abstract void buildMonitor();
 }

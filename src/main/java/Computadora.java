@@ -3,22 +3,27 @@ import java.util.List;
 public class Computadora {
 
     private String mother="";
-    private String procesador="";
+    private String cpu="";
     private String memoriaRam="";
-
+    private String monitor="";
 
 
 
     public void setMother(String mother) {
+
         this.mother = mother;
     }
 
-    public void setProcesador(String procesador) {
-        this.procesador = procesador;
+    public void setCpu(String cpu) {
+        this.cpu = cpu;
     }
 
     public void setMemoriaRam(String memoriaRam) {
         this.memoriaRam = memoriaRam;
+    }
+
+    public void setMonitor(String monitor) {
+        this.monitor = monitor;
     }
 
 
@@ -27,8 +32,12 @@ public class Computadora {
         return mother;
     }
 
-    public String getProcesador() {
-        return procesador;
+    public String getCpu() {
+        return cpu;
+    }
+
+    public String getMonitor() {
+        return monitor;
     }
 
     public String getMemoriaRam() {
