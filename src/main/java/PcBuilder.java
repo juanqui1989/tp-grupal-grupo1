@@ -5,8 +5,8 @@ public abstract class PcBuilder {
         return compu;
     }
 
-    public abstract void  buildMother();
-    public abstract void buildCpu();
-    public abstract void  buildMemoriaRam();
-    public abstract void buildMonitor();
+    protected abstract void  buildMother();
+    protected abstract void buildCpu();
+    protected abstract void  buildMemoriaRam();
+    protected abstract void buildMonitor();
 }

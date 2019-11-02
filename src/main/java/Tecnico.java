@@ -14,6 +14,7 @@ public class Tecnico {
         pcBuilder.buildMother();
         pcBuilder.buildCpu();
         pcBuilder.buildMemoriaRam();
+        pcBuilder.buildMonitor();
     }
 
 }
