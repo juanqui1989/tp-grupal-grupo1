@@ -1,5 +1,5 @@
 public class Tecnico {
-
+    /** "Director" */
     private PcBuilder pcBuilder;
 
     public void setPcBuilder(PcBuilder pcBuilder) {

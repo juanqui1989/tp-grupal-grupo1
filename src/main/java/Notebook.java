@@ -1,4 +1,7 @@
 public class Notebook extends PcBuilder {
+
+    /** "ConcreteBuilder" */
+
     public Notebook() {
         super.compu= new Computadora();
     }
