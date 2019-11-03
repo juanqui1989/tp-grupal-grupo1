@@ -1,12 +1,17 @@
 public class Cliente {
     /** Un cliente pidiendo un armado. */
     public static void main(String[]args){
+      Tecnico tecnico = new Tecnico();
+      PcGamer builder = new PcGamer();
+      CaseGamer builder2 = new CaseGamer();
+      tecnico.constructDeskoptGamer(builder);
+      tecnico.constructCaseGamer(builder2);
 
-        Tecnico tecnico=new Tecnico();
-        PcBuilder notebook=new Notebook();
+      Computer computer = builder.getResult();
+      Case caseGamer = builder2.getResult();
 
-        tecnico.setPcBuilder(notebook);
-        tecnico.construirPc();
+      computer.print();
+      System.out.println(caseGamer.print());
+      tecnico.precioTotal(computer, caseGamer);
     }
-
 }
