@@ -54,9 +54,11 @@ public class Computer {
         return monitor;
     }
 
-    public Headsets getHeadsets() { return headsets; }
+    public Headsets getHeadsets() {
+        return headsets; }
 
-    public Keyboard getKeyboard() { return keyboard; }
+    public Keyboard getKeyboard() {
+        return keyboard; }
 
     public Mouse getMouse() {
         return mouse;
