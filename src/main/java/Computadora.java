@@ -27,6 +27,10 @@ public class Computadora {
     }
 
 
+    public boolean isMother(){
+        if (this.getMother())
+    }
+
 
     public String getMother() {
         return mother;
