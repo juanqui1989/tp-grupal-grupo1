@@ -9,7 +9,8 @@ public class Case {
     private PowerSupply powerSupply;
     private GraphicCard graphicCard;
 
-    public Case(Mother mother, Cpu cpu, Hdd hdd, Ram ram, FanCooler cooler, PowerSupply powerSupply, GraphicCard graphicCard) {
+    public Case(Mother mother, Cpu cpu, Hdd hdd, Ram ram, FanCooler cooler, PowerSupply powerSupply,
+                GraphicCard graphicCard) {
         this.mother = mother;
         this.cpu = cpu;
         this.hdd = hdd;
