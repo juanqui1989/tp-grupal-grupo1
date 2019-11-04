@@ -8,4 +8,4 @@ public interface CaseBuilder {
     void buildMother(Mother mother);
     void buildPowerSupply(PowerSupply powerSupply);
     void buildRam(Ram ram);
-}
+} 

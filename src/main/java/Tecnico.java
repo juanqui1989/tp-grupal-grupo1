@@ -17,6 +17,7 @@ public class Tecnico {
         builder.buildHdd(new Hdd(4500));
         builder.buildRam(new Ram(TipoComponente.GAMER, 6000));
     }
+
     public void constructDeskoptGamer(Builder builder){
         builder.buildHeadsets(new Headsets(TipoComponente.GAMER, 1500));
         builder.buildKeyboard(new Keyboard(TipoComponente.GAMER,2000));
