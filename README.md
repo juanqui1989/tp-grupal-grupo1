@@ -40,6 +40,6 @@ El tecnico es quien sabra diseñar cualquier tipo de pc sea, gamer, hogareña o 
 laboral, este decide el precio de cada armado y los componentes que incluyen el mismo.
 
 Ojo! Es necesario que el tecnico conozca los tipo de armados de lo contrario no podra 
-efectuarlos.
+efectuarlos.   
 
 
