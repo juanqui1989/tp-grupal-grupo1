@@ -39,7 +39,7 @@ Crear el cliente, de tal forma que este pueda elegir el armado a su gusto.
 El tecnico es quien sabra diseñar cualquier tipo de pc sea, gamer, hogareña o para uso
 laboral, este decide el precio de cada armado y los componentes que incluyen el mismo.
 
-Ojo! Es necesario que el tecnico conosca los tipo de armados de lo contrario no podra 
+Ojo! Es necesario que el tecnico conozca los tipo de armados de lo contrario no podra 
 efectuarlos.
 
 
