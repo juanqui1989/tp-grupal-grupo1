@@ -5,14 +5,12 @@ import Periféricos.Mouse;
 
 public class Computer {
 
-    private Case case1;
     private Monitor monitor;
     private Mouse mouse;
     private Keyboard keyboard;
     private Headsets headsets;
 
-    public Computer(Case case1, Monitor monitor, Mouse mouse, Keyboard keyboard, Headsets headsets) {
-        this.case1 = case1;
+    public Computer(Monitor monitor, Mouse mouse, Keyboard keyboard, Headsets headsets) {
         this.monitor = monitor;
         this.mouse = mouse;
         this.keyboard = keyboard;
@@ -26,9 +24,7 @@ public class Computer {
         System.out.println("Headsets " + headsets.getTipo()  +": $" +  headsets.getPrecio());
     }
 
-    public void setCase(Case case1) {
-        this.case1 = case1;
-    }
+
 
     public void setMonitor(Monitor monitor) {
         this.monitor = monitor;
@@ -41,14 +37,10 @@ public class Computer {
     public void setMouse(Mouse mouse) {
         this.mouse = mouse;
     }
-
     public void setKeyboard(Keyboard teclado) {
         this.keyboard = teclado;
     }
 
-    public Case getCase() {
-        return case1;
-    }
 
     public Monitor getMonitor() {
         return monitor;

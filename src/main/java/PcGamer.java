@@ -3,34 +3,21 @@ import Periféricos.Keyboard;
 import Periféricos.Monitor;
 import Periféricos.Mouse;
 
-public class PcGamer implements Builder{
-    private Case case1;
+public class PcGamer {
+
     private Monitor monitor;
     private Keyboard keyboard;
     private Mouse mouse;
     private Headsets headsets;
 
-    @Override
-    public void buildMonitor(Monitor monitor) {
+    public PcGamer(Monitor monitor, Keyboard keyboard, Mouse mouse, Headsets headsets) {
         this.monitor = monitor;
-    }
-
-    @Override
-    public void buildKeyboard(Keyboard keyboard) {
         this.keyboard = keyboard;
-    }
-
-    @Override
-    public void buildMouse(Mouse mouse) {
         this.mouse = mouse;
-    }
-    
-    @Override
-    public void buildHeadsets(Headsets headsets) {
         this.headsets = headsets;
     }
 
     public Computer getResult(){
-        return new Computer(case1, monitor, mouse, keyboard, headsets);
+        return new Computer(monitor, mouse, keyboard, headsets);
     }
 }

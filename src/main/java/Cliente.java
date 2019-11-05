@@ -1,17 +1,12 @@
+import Periféricos.Headsets;
+import Periféricos.Keyboard;
+import Periféricos.Monitor;
+import Periféricos.Mouse;
+import TiposDeComponentes.TipoComponente;
+
 public class Cliente {
     /** Un cliente pidiendo un armado. */
     public static void main(String[]args){
-      Tecnico tecnico = new Tecnico();
-      PcGamer builder = new PcGamer();
-      CaseGamer builder2 = new CaseGamer();
-      tecnico.constructDeskoptGamer(builder);
-      tecnico.constructCaseGamer(builder2);
-
-      Computer computer = builder.getResult();
-      Case caseGamer = builder2.getResult();
-
-      computer.print();
-      System.out.println(caseGamer.print());
-      tecnico.precioTotal(computer, caseGamer);
+        PcGamer pc1 = new PcGamer(new Monitor( new TipoComponente("Gammer"),200), new Keyboard(new TipoComponente("razer"),2000), new Mouse(new TipoComponente("Gamer"),3000),new Headsets(new TipoComponente("SteelSeries"),12000));
     }
 }
