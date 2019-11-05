@@ -3,7 +3,7 @@ public class Cliente {
     /** Un cliente pidiendo un armado. */
     public static void main(String[]args){
         Tecnico tecnico = new Tecnico();
-        PcGamer gamer = new PcGamer();
+        PcGamer gamer = new PcGamer(1,"Sentey","Inalambric");
         CaseGamer gamer2 = new CaseGamer();
 
         tecnico.constructDeskoptGamer();

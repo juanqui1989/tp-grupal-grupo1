@@ -13,6 +13,18 @@ class CaseGamer  {
     private Monitor monitor;
     private Headsets headsets;
 
+    public CaseGamer(Cpu cpu, FanCooler cooler, GraphicCard graphicCard, Hdd hdd, Mother mother,
+                     PowerSupply powerSupply, Ram ram, Monitor monitor, Headsets headsets) {
+        this.cpu = cpu;
+        this.cooler = cooler;
+        this.graphicCard = graphicCard;
+        this.hdd = hdd;
+        this.mother = mother;
+        this.powerSupply = powerSupply;
+        this.ram = ram;
+        this.monitor = monitor;
+        this.headsets = headsets;
+    }
 
     public void buildCpu(Cpu cpu) {
         this.cpu = cpu;
