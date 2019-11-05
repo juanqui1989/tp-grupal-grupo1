@@ -5,10 +5,15 @@ import TiposDeComponentes.TipoComponente;
 public class Ram {
     private TipoComponente tipo;
     private int precio;
+    private int capacidad;
 
-    public Ram(TipoComponente tipo, int precio) {
+    public Ram(TipoComponente tipo, int precio,int capacidad) {
         this.tipo = tipo;
         this.precio = precio;
+        this.capacidad=capacidad;
+    }
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
     }
 
     public void setPrecio(int precio) {

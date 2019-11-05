@@ -15,7 +15,7 @@ public class Tecnico {
         builder.buildMother(new Mother(TipoComponente.GAMER, 12000));
         builder.buildPowerSupply(new PowerSupply(TipoComponente.GAMER, 4000));
         builder.buildHdd(new Hdd(4500));
-        builder.buildRam(new Ram(TipoComponente.GAMER, 6000));
+        builder.buildRam(new Ram(TipoComponente.GAMER, 6000,4));
     }
 
     public void constructDeskoptGamer(Builder builder){
