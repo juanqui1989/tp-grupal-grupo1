@@ -32,6 +32,9 @@ Se solicita que la clase contenga:
 
 Crear el cliente, de tal forma que este pueda elegir el armado a su gusto.
 
+Aqui un ejemplo:
+
+![](https://www.lucidchart.com/publicSegments/view/cef52224-d151-423f-b9a7-a8a5874fbf76/image.jpeg)
 
 
 ##Parte 3
