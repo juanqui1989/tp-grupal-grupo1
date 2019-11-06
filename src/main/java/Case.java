@@ -21,6 +21,9 @@ public class Case {
             this.graphicCard = graphicCard;
             }
 
+
+
+
     public String print(){
             String info = "";
             info += "Mother " + mother.getTipo()+ ": $" + mother.getPrecio() + "\n";

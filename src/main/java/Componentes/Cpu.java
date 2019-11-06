@@ -11,6 +11,9 @@ public class Cpu {
         this.precio = precio;
     }
 
+    public Cpu(int i) {
+    }
+
     public void setPrecio(int precio) {
         this.precio = precio;
     }

@@ -3,11 +3,11 @@ import Perisfericos.Headsets;
 import Perisfericos.Monitor;
 
 public class PcGamer  {
-    private Case case1;
-    private Monitor monitor;
-    private Headsets headsets;
+    public Case case1;
+    public Monitor monitor;
+    public Headsets headsets;
 
-    public PcGamer(int case1, String monitor, String headsets) {
+    public PcGamer(Case case1, Monitor monitor, Headsets headsets) {
         this.case1 = case1;
         this.monitor = monitor;
         this.headsets = headsets;
