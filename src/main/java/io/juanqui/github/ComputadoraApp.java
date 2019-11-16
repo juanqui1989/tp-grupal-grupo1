@@ -7,13 +7,15 @@ import io.juanqui.github.productos.PcGamer;
 public class ComputadoraApp {
   public static void main(String[] args) {
     PcGamerBuilder gamerBuilder = new PcGamerBuilder(new PcGamer());
+
     gamerBuilder.crearComputadora();
     gamerBuilder.setMemoria()
             .setProcesador()
             .setPlacaMadre();
-    PcGamer pcGamer = gamerBuilder.getPcGamer();
+    PcGamer pc = gamerBuilder.getPcGamer();
 
 
-    System.out.println(pcGamer.getPlacaDeVideo());
+
+    System.out.println(pc.getMemoria());
   }
 }

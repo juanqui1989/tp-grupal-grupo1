@@ -10,9 +10,8 @@ public abstract class Computadora {
     return memoria;
   }
 
-  public Computadora setMemoria(String memoria) {
+  public void setMemoria(String memoria) {
     this.memoria = memoria;
-    return this;
   }
 
   public String getProcesador() {
@@ -28,17 +27,15 @@ public abstract class Computadora {
     return placaMadre;
   }
 
-  public Computadora setPlacaMadre(String placaMadre) {
+  public void setPlacaMadre(String placaMadre) {
     this.placaMadre = placaMadre;
-    return this;
   }
 
   public String getPlacaDeVideo() {
     return placaDeVideo;
   }
 
-  public Computadora setPlacaDeVideo(String placaDeVideo) {
+  public void setPlacaDeVideo(String placaDeVideo) {
     this.placaDeVideo = placaDeVideo;
-    return this;
   }
 }

@@ -17,23 +17,24 @@ public class PcGamerBuilder extends PcBuilder {
     return (PcGamer) computadora;
   }
 
-  public Computadora setPlacaMadre() {
+  public PcGamerBuilder setPlacaMadre() {
     computadora.setPlacaMadre("placa madre gamer");
+    return this;
 
   }
 
-  public PcBuilder setMemoria() {
+  public PcGamerBuilder setMemoria() {
     computadora.setMemoria("memoria gamer");
     return this;
 
   }
 
-  public PcBuilder setProcesador() {
+  public PcGamerBuilder setProcesador() {
     computadora.setProcesador("precesador gamer");
     return this;
   }
 
-  public PcBuilder setPlacaDeVideo() {
+  public PcGamerBuilder setPlacaDeVideo() {
     computadora.setPlacaDeVideo("placa de vide gamer");
     return this;
   }
