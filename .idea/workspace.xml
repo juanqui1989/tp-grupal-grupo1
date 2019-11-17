@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e650755b-e14a-4221-aeb5-ccf683eb573f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/juanqui/github/Builders/PcEscritorioBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/juanqui/github/Builders/PcGamerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/juanqui/github/Builders/PcGamerBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/juanqui/github/ComputadoraApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/juanqui/github/ComputadoraApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/juanqui/github/productos/Computadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/juanqui/github/productos/Computadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/juanqui/github/Builders/PcGamerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/juanqui/github/Builders/PcGamerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/juanqui/github/productos/pcEscritorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/juanqui/github/productos/PcEscritorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/juanqui/github/ComputadoraApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/juanqui/github/ComputadoraApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/juanqui/github/productos/Computadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/juanqui/github/productos/Computadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/juanqui/github/productos/pcEscritorio.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +36,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apiPerson" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>

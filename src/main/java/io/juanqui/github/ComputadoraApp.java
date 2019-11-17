@@ -1,7 +1,9 @@
 package io.juanqui.github;
 
 import io.juanqui.github.Builders.PcBuilder;
+import io.juanqui.github.Builders.PcEscritorioBuilder;
 import io.juanqui.github.Builders.PcGamerBuilder;
+import io.juanqui.github.productos.PcEscritorio;
 import io.juanqui.github.productos.PcGamer;
 
 public class ComputadoraApp {
@@ -10,12 +12,19 @@ public class ComputadoraApp {
 
     gamerBuilder.crearComputadora();
     gamerBuilder.setMemoria()
-            .setProcesador()
             .setPlacaMadre();
     PcGamer pc = gamerBuilder.getPcGamer();
 
 
-
     System.out.println(pc.getMemoria());
+
+    PcEscritorioBuilder escritorioBuilder = new PcEscritorioBuilder(new PcEscritorio());
+
+    escritorioBuilder.crearComputadora();
+    escritorioBuilder.setMemoria()
+            .setPlacaMadre();
+    PcEscritorio pcEscritorio = escritorioBuilder.getPcEscritorio();
+
+    System.out.println(pcEscritorio.getMemoria());
   }
 }
